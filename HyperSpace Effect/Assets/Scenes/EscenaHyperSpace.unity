@@ -595,7 +595,10 @@ VisualEffect:
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 0.81
+        m_Name: WarpAmount
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
@@ -746,13 +749,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788391785}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c19069a97a43c6048a57e4730f8c515f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   WarpSpeedVFX: {fileID: 1143407266}
-  rate: 0.02
+  rate: 0.81
 --- !u!4 &1788391787
 Transform:
   m_ObjectHideFlags: 0
